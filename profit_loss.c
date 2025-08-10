@@ -12,7 +12,7 @@ int main(){
         printf("PROFIT IS %d", sp - cp);
     }
     else if( cp > sp){
-        printf("LOSE IS %d", cp - sp);
+        printf("LOSS IS %d", cp - sp);
     }
     else{
 
@@ -23,3 +23,4 @@ int main(){
 
 
 }
+
