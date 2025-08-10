@@ -9,7 +9,7 @@ int main(){
     printf("ENTER NUM2: ");
     scanf("%d", &num2);
 
-    if( (num1&&num2 > 0) || (num1&&num2 <0) ){
+    if( (num1> 0 && num2 > 0) || (num1 <0 && num2 <0) ){
             printf("BOTH NUM1 AND NUM2 HAVE SAME SIGN");
 
     }
@@ -18,3 +18,4 @@ int main(){
     }
     return 0;
 }
+
