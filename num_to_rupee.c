@@ -13,8 +13,8 @@ int main(){
 
     if (rem > 50){
 
-        quo = rem / 50;
-        printf("NUMBER OF 50 RUPEE NOTES = %d\n", quo);
+        
+        printf("NUMBER OF 50 RUPEE NOTES is 1\n", quo);
 
         rem = rem % 50;
 
@@ -32,3 +32,4 @@ int main(){
         printf("NUMBER OF 10 RUPEE NOTES = %d", quo);
     }
 }
+
