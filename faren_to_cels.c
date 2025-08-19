@@ -2,22 +2,24 @@
 
 int main(){
 
-    float cels, faren;
-    printf("ENTER THE TEMPERATURE IN FARENHEIT: ");
-    scanf("%f", &faren);
-
-    cels = (faren - 32) * 5/9;
+    float temp;
+    printf("ENTER THE TEMPERATURE: ");
+    scanf("%f", &temp);
 
 
-    if (cels < 20){
+    if (temp > 80){
+        temp = (temp - 32) * 5/9;
+    }
+
+    if (temp < 20){
         printf("COOL");
     }
-    else if(cels >= 20 && cels < 30){
+    else if(temp >= 20 && temp < 30){
         printf("MEDIUM");
     }
     else{
         printf("HOT");
     }
     return 0;
-
 }
+
